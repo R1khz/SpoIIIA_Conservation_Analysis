@@ -12,6 +12,7 @@ def find_species_with_min_kos_and_fixed_ko(file_name, kos_list, min_kos=3, fixed
     Returns:
         list: Especies que cumplen con los criterios de selección.
     """
+    
     matching_species = []
     with open(file_name, 'r') as file:
         lines = file.readlines()
